@@ -1,11 +1,19 @@
 :root {
   --primario: #8c0fb3;
-  --secundario: #eaae37;
+  --secundario: #FCC43C;
+  --tercer: #30043D;
+  --Cuarto: #A144BD;
+  --Quinto: #580770;
+  --Sexto: #743188;
+  --Septimo: #930BBD;
+
+  /*Colores Redes*/
   --facebook: #007acc;
   --Instragram: #a04495;
   --YouTube: #d42428;
   --font-Monserrat: "Montserrat", sans-serif;
   --font-lato: "Lato", sans-serif;
+  --font-family: 'Barlow Condensed', sans-serif;
 }
 
 body {
@@ -38,24 +46,15 @@ hr.style-two {
 }
 
 #img-logo {
-  width: 6rem;
   position: relative;
-  height: 6rem;
-  top: 0;
+  width: auto;
+  height: 7rem;
+  left: 16px;
+  top: 0px;
   bottom: 0;
-}
-#img-logo:hover {
-  -webkit-border-radius: 12px 12px 12px 12px;
-  border-radius: 12px 12px 12px 12px;
-  -webkit-transition: width 1s ease-in;
-  -moz-transition: width 1s ease-in;
-  -ms-transition: width 1s ease-in;
-  -o-transition: width 1s ease-in;
-  transition: width 1s ease-in;
-  border-radius: 22px 22px 22px 22px;
-  background: var(--primario);
-  box-shadow: 0 0 10px var(--primario), 0 0 40px var(--primario),
-    0 0 80px var(--primario);
+padding: 15px;
+
+
 }
 
 .barra {
@@ -78,9 +77,9 @@ hr.style-two {
   letter-spacing: 2px;
 }
 .navbar-dark:hover .navbar-nav:hover .nav-link:hover {
-  background: var(--secundario);
-  box-shadow: 0 0 10px var(--secundario), 0 0 40px var(--secundario),
-    0 0 80px var(--secundario);
+  background: var(--Sexto);
+  box-shadow: 0 0 10px var(--Sexto), 0 0 40px var(--Sexto),
+    0 0 80px var(--Sexto);
   border-radius: 22px 22px 22px 22px;
 }
 
