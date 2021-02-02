@@ -1,28 +1,65 @@
 <!--Footer-->
-<footer class="footer bg-dark mt-5" >
-  <div class="container-fluid">
-    <div class="py-2">
-      <p
-        class="text-light text-center"
-      >
-        <a id="text1" class="footer-text mr-5"><span id="fecha"></span>. Derechos Reservados</a>
-        <a id="text2" href="Preguntas.php" class="footer-text mr-5 ml-5 text-light">Preguntas Frecuentes</a>
-        <a id="text3" href="Terminos.php" class="footer-text mr-5 ml-5 text-light">Terminos y Condiciones</a>
-      </p>
-
-      <p class="text-light">
-        Siguenos en Nuestras Redes Sociales
-        
-        <a href="https://www.facebook.com/zea.mobi/"><img src="img/facebook-logo-2019.svg" id="img-1"></a>
-        <a href="https://www.instagram.com/zea_app/"><img src="img/instagram.svg" id="img-2"></a>
-       <a href="https://www.youtube.com/channel/UC5qcIVUwJ4mYhSz_VHONuNA"> <img src="img/play.svg" id="img-3"></a>
-      </p>
-
-
-    </div>
-  </div>
-</footer>
+<footer class="footer-section">
+        <div class="container">
+            
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.php"><img src="img/logo1.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Siguenos en </span>
+                                <a href="#"><img src="img/facebook.svg" class="img-fluid" width="50" id="img-1"></a>
+                                <a href="#"><img src="img/instagram.svg" class="img-fluid" width="50" id="img-2"></i></a>
+                                <a href="#"><img src="img/play.svg" class="img-fluid" width="50" id="img-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Mas Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="Terminos.php">Terminos y Condiciones</a></li>
+                                <li><a href="Preguntas.php">Preguntas Frecuentes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Netlaster</h3>
+                            </div>
+                           
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; <span id="fecha"></span>, Todos los derechos Reservados <a href="Index.php">ZEA</a></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
 <!--End Footer-->
+
 
 <!-- #region -->
     <script

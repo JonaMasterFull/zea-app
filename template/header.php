@@ -34,7 +34,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Bienvenido</title>
+    <title><?php echo "Bienvenido" ?></title>
   </head>
 
   <body>
@@ -47,13 +47,13 @@
         <!--Barra o Navegador-->
         <div class="container">
           <nav
-            id="navegacion-principal"
+            id="navegacion"
             class="navbar navbar-dark justify-content-between
             navbar-expand-lg text-uppercase text-md-center fixed-top navbar-light
              "
           >
-            <a class="navbar-brand" href="Index.html">
-              <img id="img-logo" src="img/logo1.png" width="60" height="80"
+            <a class="navbar-brand" href="Index.php">
+              <img id="img-logo" src="img/logo1.png"
               data-aos="zoom-in"/>
               <span class="display-4 w-1"></span></a
             >
@@ -72,16 +72,16 @@
             <div class="collapse navbar-collapse"  id="navbarNavDropdown">
               <ul class="navbar-nav w-100 justify-content-end nav-tabs">
                 <li class="nav-item">
-                  <a class="nav-link" href="Index.php">Inicio</a>
+                  <a class="nav-link text-white  btn-outline-dark" href="Index.php"><strong> Inicio</strong></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="sobre-app.php">Sobre la App</a>
+                  <a class="nav-link text-white btn-outline-dark" href="sobreapp.php"><strong> Sobre la App</strong></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contacto.php">Contactanos</a>
+                  <a class="nav-link text-white btn-outline-dark" href="contacto.php"><strong>Contacto</strong></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Blog/index.php">Blog</a>
+                  <a class="nav-link text-white btn-outline-dark" href="Blog/index.php"><strong>Blog</strong></a>
                 </li>
               </ul>
             </div>
