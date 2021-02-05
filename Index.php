@@ -15,7 +15,6 @@
             Aplicación para dispositivos móviles que te permiten
             reservar en restaurantes, bares o cafeterías, pagar tus
             comidas o bien si lo requieres podrás contar con nuestro servicio a domicilio.</p>
-
       </div>
 
       <div class="col-12 col-lg-6 col-md-6" id="form-2">
